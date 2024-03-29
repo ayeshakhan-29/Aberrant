@@ -2,6 +2,7 @@ import Hero from "./Components/Sections/Hero";
 import Navbar from "./Components/Navigation/Navbar";
 import Footer from "./Components/Navigation/Footer";
 import Services from "./Components/Sections/Services";
+import Approach from "./Components/Sections/Approach";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <Approach />
       <Footer />
     </div>
   );
