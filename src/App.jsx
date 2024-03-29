@@ -3,6 +3,7 @@ import Navbar from "./Components/Navigation/Navbar";
 import Footer from "./Components/Navigation/Footer";
 import Services from "./Components/Sections/Services";
 import Approach from "./Components/Sections/Approach";
+import Insights from "./Components/Sections/Insights";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Services />
       <Approach />
+      <Insights />
       <Footer />
     </div>
   );
