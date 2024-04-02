@@ -1,6 +1,5 @@
 import React from "react";
 import InsightCard from "../Reusable Components/InsightCard";
-import design from "../../assets/design.png"
 
 export default function Insights() {
     return (

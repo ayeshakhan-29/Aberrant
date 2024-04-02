@@ -1,21 +1,20 @@
-import Hero from "./Components/Sections/Hero";
-import Navbar from "./Components/Navigation/Navbar";
-import Footer from "./Components/Navigation/Footer";
-import Services from "./Components/Sections/Services";
-import Approach from "./Components/Sections/Approach";
-import Insights from "./Components/Sections/Insights";
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Design from './pages/Design';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="max-w-screen overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <Services />
-      <Approach />
-      <Insights />
-      <Footer />
-    </div>
-  );
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/design" element={<Design />} />
+        </Routes>
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App
