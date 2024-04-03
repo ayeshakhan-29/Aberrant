@@ -4,31 +4,37 @@ import design from "../../assets/design.png"
 
 export default function DesignSolutions() {
     return (
-        <div className="w-full h-full flex justify-center items-center py-10 px-4">
+        <div className="w-full h-full flex justify-center items-center md:mt-10 py-10 px-4">
             <div className="flex flex-col justify-center text-center md:text-left text-white mx-5 gap-4">
-                <h1 className="text-4xl md:ml-20">Innovative Design Solutions</h1>
-                <p className="mx-6 md:mx-0 md:justify-center font-normal md:ml-20 md:mb-5">Creating brand identity with innovative solutions, ensuring that the design stands out with authenticity and impact in the market. Our comprehensive suite of design services includes
-
-                </p>
-                <div className="flex flex-wrap justify-center gap-4">
-                    <Card
-                        url={design}
-                        heading="Design"
-                        desc="Transforming vision into captivating designs, focusing on building a brand identity that resonates authentically, ensuring a personal touch in every element.    "
-                    >
-                    </Card>
-                    <Card
-                        url={design}
-                        heading="Development"
-                        desc="Breathing life into concepts, our team creates powerful digital solutions that uniquely reflects the brand, creating a digital identity.                        "
-                    >
-                    </Card>
-                    <Card
-                        url={design}
-                        heading="Marketing"
-                        desc="Strategically sharing brand stories and creating meaningful connections. Our personal approach maximizes impact, driving growth in the competitive market.  "
-                    >
-                    </Card>
+                <h1 className="text-4xl md:ml-32">Innovative Design Solutions</h1>
+                <p className="mx-6 md:justify-center font-normal md:mx-32 md:mb-5">Creating brand identity with innovative solutions, ensuring that the design stands out with authenticity and impact in the market. Our comprehensive suite of design services includes</p>
+                <div className="flex flex-wrap justify-center md:mx-32">
+                    <div className="grid md:grid-cols-2 grid-cols-1 md:gap-4" >
+                        <Card
+                            url={design}
+                            heading="Brand Identity"
+                            desc="Our ethos driven design ensures a brand transformation that resonates with core values, engaging audiences authentically, infusing creativity and uniqueness.                        "
+                        >
+                        </Card>
+                        <Card
+                            url={design}
+                            heading="Brand Messaging                        "
+                            desc="Align core values, and visual identity for impactful messaging resonating with audience, fostering a meaningful brand purpose and connection.                        "
+                        >
+                        </Card>
+                        <Card
+                            url={design}
+                            heading="Brand Guidelines and Activation                        "
+                            desc="Navigate the brand landscape with clarity using our brand guidelines and activation service. Conducting visual identity redesign, ensuring consistent brand representation.                        "
+                        >
+                        </Card>
+                        <Card
+                            url={design}
+                            heading="Branding"
+                            desc="From identity redesign to storytelling, conducting a meaningful strategic brand overhaul and visual elements for an authentic brand transformation."
+                        >
+                        </Card>
+                    </div>
                 </div>
             </div>
         </div >
