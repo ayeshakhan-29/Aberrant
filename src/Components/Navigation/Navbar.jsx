@@ -6,14 +6,14 @@ export default function Navbar() {
       <div className="flex justify-between items-center">
         <div className="text-2xl font-bold">Logo</div>
         <div className="flex gap-4">
-          <a href="#" className="text-lg">
+          <a href="" className="text-lg">
             Home
           </a>
-          <a href="#" className="text-lg">
-            About
+          <a href="design" className="text-lg">
+            Design
           </a>
-          <a href="#" className="text-lg">
-            Services
+          <a href="development" className="text-lg">
+            Development
           </a>
           <a href="#" className="text-lg">
             Contact
