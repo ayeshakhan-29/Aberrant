@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../Reusable Components/Card";
 import design from "../../assets/design.png"
 
-export default function DesignSolutions() {
+export default function DevSolutions() {
     return (
         <div className="w-full h-full flex justify-center items-center md:mt-32 md:py-10 p-4 mt-20">
             <div className="flex flex-col justify-center text-left text-white md:mx-5 gap-4">
