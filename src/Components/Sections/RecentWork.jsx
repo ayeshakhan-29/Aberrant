@@ -6,7 +6,7 @@ export default function RecentWork() {
     return (
         <div className="w-full h-full flex justify-center items-center md:py-10 px-4 mt-20">
             <div className="flex flex-col justify-center text-left text-white md:mx-5 gap-4">
-                <h1 className="md:text-4xl text-xl text-normal md:ml-32">Our Latest Work</h1>
+                <h1 className="md:text-4xl text-xl text-normal md:ml-32">Our Recent Works</h1>
                 <p className="md:justify-center md:text-base text-sm font-thin md:mx-32 mb-5">Dive into our Recent Designs, a gallery showcasing the creativity, uniqueness, and brand transformations we've sculpted. See our compelling designs, leaving a lasting impression on diverse projects with captivating visuals.</p>
                 <div className="flex flex-wrap justify-center md:mx-32">
                     <div className="grid md:grid-cols-3 grid-cols-1 gap-6" >

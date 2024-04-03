@@ -5,9 +5,9 @@ import design from "../../assets/design.png"
 export default function Approach() {
     return (
         <div className="w-full h-full flex justify-center items-center py-10 px-4">
-            <div className="flex flex-col justify-center text-center md:text-left text-white mx-5 gap-4">
-                <h1 className="text-4xl md:ml-32">Aberrant’s Unique Approach</h1>
-                <p className="mx-6 md:justify-center font-normal md:mx-32 md:mb-5">Showcase our commitment to innovation, strategic thinking, and client-focused solutions, ensuring a transformative digital journey. With a results-driven mindset and an incorporation of core values, delivering meaningful and enduring value to businesses, contributing to their lasting success.</p>
+            <div className="flex flex-col justify-center text-left text-white mx-5 gap-4">
+                <h1 className="md:text-4xl text-2xl font-base md:ml-32">Aberrant’s Unique Approach</h1>
+                <p className="md:justify-center md:font-normal text-sm font-thin md:mx-32 md:mb-5">Showcase our commitment to innovation, strategic thinking, and client-focused solutions, ensuring a transformative digital journey. With a results-driven mindset and an incorporation of core values, delivering meaningful and enduring value to businesses, contributing to their lasting success.</p>
                 <div className="flex flex-wrap md:flex-row justify-center md:mx-32">
                     <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
                         <Card

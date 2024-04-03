@@ -4,12 +4,12 @@ import design from "../../assets/design.png"
 
 export default function Services() {
     return (
-        <div className="w-full h-full flex justify-center items-center py-10 px-4">
-            <div className="flex flex-col justify-center text-center md:text-left text-white mx-5 gap-4">
-                <h1 className="text-4xl md:ml-32">Empowering Businesses</h1>
-                <p className="mx-6 md:justify-center font-normal md:mx-32 md:mb-5">Aberrant, a versatile digital partner, focuses on empowering businesses through unique brand structures, strategic development, and effective marketing solutions. Bringing you a collaborative approach, tailoring our expertise to meet the brand’s specific needs. Our deliverables include tangible value, navigating the complexities of the digital terrain, and ensuring the brand thrives in the ever-evolving market. We provide solutions that resonate with business goals, ensuring alignment with the objectives.</p>
+        <div className="w-full h-full flex md:justify-center items-center py-10 md:px-4">
+            <div className="flex flex-col md:justify-center text-left text-white mx-5 gap-4">
+                <h1 className="md:text-4xl text-2xl font-base md:ml-32">Empowering Businesses</h1>
+                <p className="md:justify-center md:font-normal text-sm font-thin md:mx-32 md:mb-5">Aberrant, a versatile digital partner, focuses on empowering businesses through unique brand structures, strategic development, and effective marketing solutions. Bringing you a collaborative approach, tailoring our expertise to meet the brand’s specific needs. Our deliverables include tangible value, navigating the complexities of the digital terrain, and ensuring the brand thrives in the ever-evolving market. We provide solutions that resonate with business goals, ensuring alignment with the objectives.</p>
                 <div className="flex flex-wrap md:flex-row justify-center md:mx-32">
-                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-6">
                         <Card
                             url={design}
                             heading="Design"
