@@ -16,7 +16,6 @@ function Home() {
             <RecentWork />
             <Approach />
             <Insights />
-            <BannerSection />
             <Footer />
         </div>
     );

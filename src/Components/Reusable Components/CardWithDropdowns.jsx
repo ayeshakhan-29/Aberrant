@@ -63,7 +63,7 @@ const CardWithDropdowns = ({ heading1, heading2, heading3, heading4, heading5, d
                         <AiOutlineDown className={`h-5 w-5 transition-transform ${dropdown1Open ? 'transform rotate-180' : ''}`} />
                     </div>
                     <div className={`transition-opacity duration-500 ${dropdown1Open ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
-                        <p className={`md:text-sm mt-2 md:mx-6 ${dropdown1Open ? 'block' : 'hidden'}`}>{desc1}</p>
+                        <p className={`text-sm font-thin mt-2 mx-6 ${dropdown1Open ? 'block' : 'hidden'}`}>{desc1}</p>
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@ const CardWithDropdowns = ({ heading1, heading2, heading3, heading4, heading5, d
                         <AiOutlineDown className={`h-5 w-5 transition-transform ${dropdown2Open ? 'transform rotate-180' : ''}`} />
                     </div>
                     <div className={`transition-opacity duration-500 ${dropdown2Open ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
-                        <p className={`md:text-sm  mt-2 md:mx-6 ${dropdown2Open ? 'block' : 'hidden'}`}>{desc2}</p>
+                        <p className={`text-sm font-thin mt-2 mx-6 ${dropdown2Open ? 'block' : 'hidden'}`}>{desc2}</p>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@ const CardWithDropdowns = ({ heading1, heading2, heading3, heading4, heading5, d
                         <AiOutlineDown className={`h-5 w-5 transition-transform ${dropdown3Open ? 'transform rotate-180' : ''}`} />
                     </div>
                     <div className={`transition-opacity duration-500 ${dropdown3Open ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
-                        <p className={`md:text-sm mt-2 md:mx-6 ${dropdown3Open ? 'block' : 'hidden'}`}>{desc3}</p>
+                        <p className={`text-sm font-thin mt-2 mx-6 ${dropdown3Open ? 'block' : 'hidden'}`}>{desc3}</p>
                     </div>
                 </div>
 
@@ -96,7 +96,7 @@ const CardWithDropdowns = ({ heading1, heading2, heading3, heading4, heading5, d
                         <AiOutlineDown className={`h-5 w-5 transition-transform ${dropdown4Open ? 'transform rotate-180' : ''}`} />
                     </div>
                     <div className={`transition-opacity duration-500 ${dropdown4Open ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
-                        <p className={`md:text-sm mt-2 md:mx-6 ${dropdown4Open ? 'block' : 'hidden'}`}>{desc4}</p>
+                        <p className={`text-sm font-thin mt-2 mx-6 ${dropdown4Open ? 'block' : 'hidden'}`}>{desc4}</p>
                     </div>
                 </div>
 
@@ -107,7 +107,7 @@ const CardWithDropdowns = ({ heading1, heading2, heading3, heading4, heading5, d
                         <AiOutlineDown className={`h-5 w-5 transition-transform ${dropdown5Open ? 'transform rotate-180' : ''}`} />
                     </div>
                     <div className={`transition-opacity duration-500 ${dropdown5Open ? 'opacity-100' : 'opacity-0'} overflow-hidden`}>
-                        <p className={`md:text-sm mt-2 md:mx-6 ${dropdown5Open ? 'block' : 'hidden'}`}>{desc5}</p>
+                        <p className={`text-sm font-thin mt-2 mx-6 ${dropdown5Open ? 'block' : 'hidden'}`}>{desc5}</p>
                     </div>
                 </div>
 

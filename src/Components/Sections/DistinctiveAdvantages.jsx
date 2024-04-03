@@ -4,12 +4,12 @@ import design from "../../assets/design.png"
 
 export default function DistinctiveAdvantages() {
     return (
-        <div className="w-full h-full flex justify-center items-center md:mt-20 py-10 px-4">
-            <div className="flex flex-col justify-center text-center md:text-left text-white mx-5 gap-4">
-                <h1 className="text-4xl md:ml-32">Distinctive Advantages</h1>
-                <p className="mx-6 md:justify-center font-normal md:mx-32 md:mb-5">Dive into the world of business transformation with innovative design at Aberrant. Refining brand elements to conceptualize unique designs, ensuring every step is meticulously undertaken to deliver a distinctive and impactful visual identity for your brand.</p>
+        <div className="w-full h-full flex justify-center md:items-center md:mt-32 md:py-10 p-4 mt-20">
+            <div className="flex flex-col justify-center text-left text-white md:mx-5 gap-4">
+                <h1 className="md:text-4xl text-xl text-normal md:ml-32">Distinctive Advantages</h1>
+                <p className="md:justify-center md:text-base text-sm font-thin md:mx-32 md:mb-5">Dive into the world of business transformation with innovative design at Aberrant. Refining brand elements to conceptualize unique designs, ensuring every step is meticulously undertaken to deliver a distinctive and impactful visual identity for your brand.</p>
                 <div className="flex flex-wrap justify-center md:mx-32">
-                    <div className="grid md:grid-cols-3 grid-cols-1 md:gap-4" >
+                    <div className="grid md:grid-cols-3 grid-cols-1 gap-4" >
                         <Card
                             url={design}
                             heading="Conceptualize Designs"

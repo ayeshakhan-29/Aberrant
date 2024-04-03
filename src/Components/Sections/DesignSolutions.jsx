@@ -4,12 +4,12 @@ import design from "../../assets/design.png"
 
 export default function DesignSolutions() {
     return (
-        <div className="w-full h-full flex justify-center items-center md:mt-10 py-10 px-4">
-            <div className="flex flex-col justify-center text-center md:text-left text-white mx-5 gap-4">
-                <h1 className="text-4xl md:ml-32">Innovative Design Solutions</h1>
-                <p className="mx-6 md:justify-center font-normal md:mx-32 md:mb-5">Creating brand identity with innovative solutions, ensuring that the design stands out with authenticity and impact in the market. Our comprehensive suite of design services includes</p>
+        <div className="w-full h-full flex justify-center items-center md:mt-32 md:py-10 p-4 mt-20">
+            <div className="flex flex-col justify-center text-left text-white md:mx-5 gap-4">
+                <h1 className="md:text-4xl text-xl text-normal md:ml-32">Innovative Design Solutions</h1>
+                <p className="md:justify-center md:text-base text-sm font-thin md:mx-32 md:mb-5">Creating brand identity with innovative solutions, ensuring that the design stands out with authenticity and impact in the market. Our comprehensive suite of design services includes</p>
                 <div className="flex flex-wrap justify-center md:mx-32">
-                    <div className="grid md:grid-cols-2 grid-cols-1 md:gap-4" >
+                    <div className="grid md:grid-cols-2 grid-cols-1 md:gap-4 gap-4 p-6" >
                         <Card
                             url={design}
                             heading="Brand Identity"
