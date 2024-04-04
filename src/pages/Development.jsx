@@ -1,7 +1,7 @@
 import React from "react";
 import design from "../assets/design.png";
 import DevSolutions from "../Components/Sections/DevSolutions";
-import DistinctiveAdvantages from "../Components/Sections/DistinctiveAdvantages";
+import DevAdvantages from "../Components/Sections/DevAdvantages";
 import RecentWork from "../Components/Sections/RecentWork";
 import DevWorkProcess from "../Components/Sections/DevWorkProcess";
 import BannerSection from "../Components/Reusable Components/BannerSection";
@@ -22,8 +22,9 @@ export default function Development() {
                     Our approach involves keenly grasping the industry's essence, sculpting exclusive frameworks and personalized solutions. Specializing in custom development, ensuring your digital footprint stands out in the online landscape. By combining insights and innovative coding techniques, we curate digital experiences that not only meet but exceed expectations.
                 </p>
             </div>
-            <DistinctiveAdvantages />
-            <RecentWork />
+            <DevAdvantages />
+            <RecentWork
+                desc="Discover our Recent Developments, a showcase of the robust digital solutions we've crafted, reflecting brand identities and ensuring success. Explore the life we've infused into concepts, from inception to thriving digital ventures.            " />
             <Footer />
         </div>
     );

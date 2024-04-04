@@ -23,7 +23,8 @@ export default function Design() {
                 </p>
             </div>
             <DistinctiveAdvantages />
-            <RecentWork />
+            <RecentWork
+                desc="Dive into our Recent Designs, a gallery showcasing the creativity, uniqueness, and brand transformations we've sculpted. See our compelling designs, leaving a lasting impression on diverse projects with captivating visuals." />
             <Footer />
         </div>
     );
